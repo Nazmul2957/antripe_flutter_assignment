@@ -42,8 +42,17 @@ A Flutter mobile application that fetches contacts from an API, displays them in
 | [dio](https://pub.dev/packages/dio)                 | ^5.9.1  | API requests with error handling and interceptors                 |
 | [equatable](https://pub.dev/packages/equatable)     | ^2.0.8  | Simplify model class equality comparisons for clean data handling |
 
-💬 Notes
+🚀 Features
 
-Categories come from API or can be mapped locally.
+ .Fetch contacts from API with error handling.
 
-Debounced search avoids unnecessary rebuilds or API filtering on each keystroke.
+ .Categorized list view by category field from API.
+
+ .Debounced search to filter contacts efficiently by name.
+
+ .Reactive UI updates via GetX controllers.
+
+ .Clean and responsive interface for mobile screens.
+
+ .Optional SVG icons for better UI visualization.
+
