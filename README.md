@@ -1,20 +1,50 @@
 # antripe_flutter_assignment
 
-A new Flutter project.
+# Contact List App (API + Categorized + Debounced Search)
 
-## Getting Started
+A Flutter mobile application that fetches contacts from an API, displays them in categorized sections, and provides a debounced search functionality to optimize performance. Built with Flutter 3.16 and GetX for reactive state management.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠 Flutter Version
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter SDK: 3.38.8
+- Dart: 3.10.7
+- Compatible with Android & iOS
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## ⚡ Setup Steps
+
+1. Clone the repository:
 
 
+    git clone https://github.com/Nazmul2957/antripe_flutter_assignment.git
+
+2 . Navigate to the project folder:
 
 
+    cd contact_list_app
+
+3 . Install dependencies:
+
+
+    flutter pub get
+
+4 . Run the app on a connected device or emulator:
+
+
+    flutter run
+
+| Library                                             | Version | Purpose                                                           |
+| --------------------------------------------------- | ------- | ----------------------------------------------------------------- |
+| [get](https://pub.dev/packages/get)                 | ^4.7.3  | State management, reactive UI updates, navigation                 |
+| [flutter_svg](https://pub.dev/packages/flutter_svg) | ^2.2.3  | Render SVG icons efficiently (e.g., search icon, category icons)  |
+| [dio](https://pub.dev/packages/dio)                 | ^5.9.1  | API requests with error handling and interceptors                 |
+| [equatable](https://pub.dev/packages/equatable)     | ^2.0.8  | Simplify model class equality comparisons for clean data handling |
+
+💬 Notes
+
+Categories come from API or can be mapped locally.
+
+Debounced search avoids unnecessary rebuilds or API filtering on each keystroke.
