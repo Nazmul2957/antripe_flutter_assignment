@@ -23,8 +23,7 @@ A Flutter mobile application that fetches contacts from an API, displays them in
 
 2 . Navigate to the project folder:
 
-
-    cd contact_list_app
+    cd <antripe_flutter_assignment>
 
 3 . Install dependencies:
 
