@@ -2,7 +2,7 @@
 
 # Contact List App (API + Categorized + Debounced Search)
 
-A Flutter mobile application that fetches contacts from an API, displays them in categorized sections, and provides a debounced search functionality to optimize performance. Built with Flutter 3.16 and GetX for reactive state management.
+A Flutter mobile application that fetches contacts from an API, displays them in categorized sections, and provides a debounced search functionality to optimize performance. Built with  GetX for reactive state management.
 
 ---
 
